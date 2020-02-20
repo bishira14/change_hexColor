@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  text-align: center;
+}
+.hexText{
+  font-size: 3em;
+  text-transform: capitalize;
+}
+.hex{
+  font-size: 3em;
+  text-transform: capitalize;
+}
+button{
+  background-color: rgba(189, 195, 199, 1);
+  border: 3px solid white;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  padding: 5px 3px;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+button:hover{
+  background-color: orange;
+}
